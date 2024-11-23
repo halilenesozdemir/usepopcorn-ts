@@ -1,30 +1,33 @@
-# React + TypeScript + Vite
+# usePopcorn Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the usePopcorn project! This React-based application is designed to provide movie enthusiasts with a seamless experience to search for movies, rate them, and manage a personal watchlist.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Movie Search**: Easily find your favorite movies with our responsive search feature.
+- **User Ratings**: Rate movies and see how others have rated them with our integrated star rating system.
+- **Watchlist Management**: Keep track of movies you've watched and those you want to see with a personalized watchlist.
 
-## Expanding the ESLint configuration
+## Hooks
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+To enhance functionality and maintain clean code, we've implemented custom hooks:
 
-- Configure the top-level `parserOptions` property like this:
+- `useKey`: Manages keyboard events for improved accessibility and control.
+- `useLocalStorageState`: Preserves state between sessions using LocalStorage.
+- `useMovies`: Fetches movie information from the API efficiently.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: "latest",
-    sourceType: "module",
-    project: ["./tsconfig.json", "./tsconfig.node.json", "./tsconfig.app.json"],
-    tsconfigRootDir: __dirname,
-  },
-};
-```
+## About the Project
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+usePopcorn is built with the following technologies:
+
+- **React**: For building a dynamic and responsive UI.
+- **JavaScript**: The scripting language providing interactivity.
+- **CSS**: For styling and visually enhancing the application.
+- **HTML**: The markup language used to structure content on the web.
+
+## Live Demo
+
+Experience the usePopcorn app in action! Check out the live demo:
+As soon as possible I will add!
+
+Thank you for checking out the usePopcorn project. We hope you enjoy using the application as much as we enjoyed building it!
